@@ -260,7 +260,12 @@ footer {
       flex-direction: column-reverse;
       padding: 3vw 0;
 
-    }  
+    }
+	
+    .main_header {
+      display: block;
+      text-align: center;
+    }
 
     .menu {
       display: none;
@@ -381,7 +386,11 @@ footer {
       flex-direction: column-reverse;
       padding: 3vw 0;
     }
-
+	
+    .main_header {
+      display: block;
+      text-align: center;
+    }
 
     .menu {
       display: none;
