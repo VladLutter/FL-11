@@ -48,7 +48,6 @@ switch (play) {
 						'\nAttempts left: ' + attemptValue + '\nTotal prize: ' + countPrize + '$' + 
 						'\nPossible prize on current attempt: ' + possibleValue + '$');
 					start = parseInt(start);
-					console.log(i);
 						
 						if (start===random && i===1) {
 							countPrize = countPrize + countPossible;
