@@ -28,7 +28,6 @@ switch (play) {
 
 			maxValue = max + 1;
 			let random = Math.floor(Math.random() * (maxValue - min) + min);
-			console.log('random' + ' ' + random); //вывод значения RANDOM
 			
 			if (gameCycle) {
 		
