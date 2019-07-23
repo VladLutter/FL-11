@@ -1,0 +1,92 @@
+i {
+    color: #00b4fa;
+    cursor: pointer;
+}
+
+h1 {
+    color: #00b4fa;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    margin: 0 auto;
+    width: 70%;
+}
+
+.message {
+    color: #ff0000;
+    padding-bottom: 20px;
+    font-size: 18px;
+}
+
+.input {
+    width: 100%;
+    display: flex;
+}
+
+#input-task {
+    padding-left: 10px;
+    font-size: 12px;
+    border-radius: 10px solid #000000;
+}
+
+input[type="text"] {
+    width: 90%;
+    height: 40px;
+}
+
+input[type="checkbox"] {
+    transform: scale(1.3);
+    margin-right: 10px;
+
+}
+
+#add {
+    font-size: 45px;
+    color: #c6d0d7;
+    margin-left: 1vw;
+}
+
+span.task {
+    color: #00b4fa;
+}
+
+.list {
+    list-style: none;
+    width: 100%;
+    padding: 0;
+}
+
+.list-item {
+    line-height: 40px;
+}
+
+.delete {
+    color: #7fc3f1;
+    float: right;
+    width: 3vw;
+    vertical-align: middle;
+}
+
+.line {
+    background-color: #e2f1fd;
+    width: 100%;
+    border: none;
+    height: 6px;
+    margin-top: 20px;
+}
+
+.edit, .save {
+    color: #7fc3f1;
+    vertical-align: middle;
+    margin-left: 5px;
+
+}
+
+input[type="text"].replace-task {
+    width: 40%;
+    padding-left: 10px;
+}
